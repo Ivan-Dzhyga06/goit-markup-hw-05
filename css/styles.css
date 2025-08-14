@@ -353,6 +353,7 @@ header {position:sticky;top:0;background-color:#fff;z-index:1000;box-shadow:0px 
 .form-privacy{ margin-bottom:24px; }
 
 .agree-label{
+  display: inline-flex;
   font-size:12px;
   line-height:1.17;
   letter-spacing:0.04em;
