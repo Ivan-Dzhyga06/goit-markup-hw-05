@@ -364,7 +364,7 @@ header {position:sticky;top:0;background-color:#fff;z-index:1000;box-shadow:0px 
   width:16px; height:16px;
   border:1px solid rgba(46,47,66,0.4);
   border-radius:2px;
-  display: inline-flex !important; 
+  display: inline-flex; 
   align-items:center; 
   justify-content:center;
   fill: transparent;
@@ -374,7 +374,7 @@ header {position:sticky;top:0;background-color:#fff;z-index:1000;box-shadow:0px 
 }
 .agree-icon{ fill:#fff; }
 .agree-checkbox:checked + .agree-label .agree-fake{
-  background-color:var(--pressed, #404bbf); /* требование: css var со знач #404bbf */
+  background-color:var(--pressed, #404bbf); 
   border:none;                              /* требование */
   fill:var(--light, #f4f4fd);
 }
